@@ -5,3 +5,34 @@
     padding: 10px;
     margin: 10px;
 }
+
+.botao {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: darkred;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+}
+
+.item {
+    border: 1px solid white;
+    border-radius: 1px;
+    margin: 2px;
+    padding: 10px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: aqua;
+}
